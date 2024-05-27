@@ -1,7 +1,9 @@
 import React from "react";
+import Producers from "./components/Producers";
+import "./App.css";
 
 const App = () => {
-  return <div>Hello world!</div>;
+  return <Producers />;
 };
 
 export default App;
