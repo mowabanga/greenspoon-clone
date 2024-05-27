@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("/producers.png");
+  background-image: url("./producers_imgs/producers.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
