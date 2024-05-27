@@ -5,17 +5,24 @@ import '../styles/Navbar.css'
 function Navbar() {
   return (
     <div className='nav-bar'>
-      <div className='logo'> 
-        <img src='src/assets/greenspoon-logo.svg' alt='logo'></img>
-      </div>
-      <div>
-        <li className='navlinks'>
-          <ul><NavLink to='producers'>Producers</NavLink></ul>
-          <ul><NavLink to='contact'>Contact</NavLink></ul>
-          <ul><NavLink to='faq'>FAQ</NavLink></ul>
-          <ul><NavLink to='register'>Register</NavLink></ul>
-        </li>
-      </div>
+          <div className='logo'> 
+            <img src='src/assets/greenspoon-logo.svg' alt='logo'></img>
+          </div>
+          <div> 
+            <ul className='nav-links'>
+            <li><NavLink to='producers'>Producers</NavLink></li>
+            <li><NavLink to='contact'>Contact</NavLink></li>
+            <li><NavLink to='faq'>FAQ</NavLink></li>
+            </ul>
+          </div>
+          <div className='reg'>
+            <button className='log'>
+            <NavLink to='login'>Login</NavLink>
+            </button>
+            <button className='register'>
+            <NavLink to='register'>Register</NavLink>
+            </button>
+          </div>
     </div>
   );
 }
