@@ -1,9 +1,12 @@
 import React from "react";
-import Producers from "./components/Producers";
-import "./App.css";
+import Navbar from "./components/Navbar";
 
 const App = () => {
-  return <Producers />;
+  return (
+    <div>
+      <Navbar />
+    </div>
+  );
 };
 
 export default App;
