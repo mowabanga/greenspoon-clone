@@ -1,7 +1,8 @@
 .nav-bar{
     display: flex;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding: 10px;
 }
 .logo{
     width: 200px;
@@ -10,14 +11,60 @@
     justify-content: center;
 }
 
-.navlinks{
+.nav-links{
     list-style: none;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
-li ul a{
+ul li a{
     text-decoration: none;
     color: black;
     font-size: 14px;
+    padding: 0 10px;
+}
+.reg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.reg a{
+    text-decoration: none;
+    font-size: 14px;
+    padding: 0 10px;
+}
+.log{
+    margin: 0 10px;
+    background-color: var(--primary-clr);
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: 0px solid #42a550;
+    color: #ffffff;
+}
+.log a{
+    color: #ffffff;
+}
+.log:hover{
+    background-color: #ffffff;
+    color: var(--primary-clr);
+   }
+   .log:hover a{
+    color: var(--primary-clr);
+   }
+.register{
+    margin: 0 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: 0px solid #42a550;
+}
+.register a{
+    color: var(--primary-clr);
+}
+.register:hover a{
+    color:#ffffff;
+}
+.register:hover{
+    background-color: var(--primary-clr);
+    color: #000000;
 }
