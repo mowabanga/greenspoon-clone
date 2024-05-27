@@ -9,20 +9,25 @@ function Navbar() {
         <img src="src/assets/greenspoon-logo.svg" alt="logo"></img>
       </div>
       <div>
-        <li className="navlinks">
-          <ul>
+        <ul className="nav-links">
+          <li>
             <NavLink to="producers">Producers</NavLink>
-          </ul>
-          <ul>
+          </li>
+          <li>
             <NavLink to="contact">Contact</NavLink>
-          </ul>
-          <ul>
+          </li>
+          <li>
             <NavLink to="faq">FAQ</NavLink>
-          </ul>
-          <ul>
-            <NavLink to="register">Register</NavLink>
-          </ul>
-        </li>
+          </li>
+        </ul>
+      </div>
+      <div className="reg">
+        <button className="log">
+          <NavLink to="login">Login</NavLink>
+        </button>
+        <button className="register">
+          <NavLink to="register">Register</NavLink>
+        </button>
       </div>
     </div>
   );
