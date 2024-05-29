@@ -1,0 +1,92 @@
+.footer1{
+    height:fit-content;
+    width: 100%;
+    background-color: #FAFCF7;
+    margin-top: 250px;
+    display: flex;
+    justify-content: space-between;
+    gap:100px;
+    padding:5px 30px;
+    bottom: 0;
+}
+.copyright p{
+    font-size: 15px;
+    align-items: start;
+}
+.spoon{
+    color: var(--primary-clr);
+    font-size: 17px;
+    padding-bottom: 18px;
+}
+.spoon img{
+    height: 30px;
+    width: 170px;
+}
+.location li{
+    list-style: none;
+    font-size: 17px;
+}
+.location img{
+    height: 120px;
+    width: 200px;
+    padding-top: 20px;
+}
+.about{
+    display: flex;
+    gap: 80px;
+    margin-bottom: 30px;
+}
+.about li{
+    list-style: none;
+    color: #6d6e6c;
+    font-size: 18px;
+}
+.warning{
+    font-size: 18px;
+    color: #6d6e6c;
+}
+.connect{
+    margin-top: 20px;
+}
+.social ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    font-size: 25px;
+    color: #6d6e6c;
+    margin-top: 10px;
+}
+.newsletter{
+    display: flex;
+    flex-direction: column;
+}
+.newsletter h4{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 8px 0;
+}
+.newsletter p1{
+    font-size: 19px;
+    padding: 15px 0;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.input input{
+    height: 40px;
+    width: 300px;
+    font-size: 15px;
+    padding: 10px;
+}
+.input button{
+    height: 40px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    background-color: #90A07F;
+    color: white;
+    border: none;
+}
+
