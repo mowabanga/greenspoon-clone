@@ -4,6 +4,7 @@ import { Route, Routes} from "react-router-dom";
 import Producers from "./components/Producers";
 import './App.css';
 import Home from "./components/Home";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="producers" element={<Producers/>}/>
       </Routes>
+      <Footer/>
     </div>
   );
 };

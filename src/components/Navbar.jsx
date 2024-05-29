@@ -10,6 +10,9 @@ function Navbar() {
       </div>
       <div>
         <ul className="nav-links">
+        <li>
+            <NavLink to="/">Home</NavLink>
+          </li>
           <li>
             <NavLink to="producers">Producers</NavLink>
           </li>
